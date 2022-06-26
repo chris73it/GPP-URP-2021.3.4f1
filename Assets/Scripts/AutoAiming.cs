@@ -188,7 +188,10 @@ public class AutoAiming : MonoBehaviour
     {
         pistolCurrentEnergy.Value -= pistolEnergyConsumption.Value;
         if (pistolCurrentEnergy.Value < 0)
+        {
             pistolCurrentEnergy.Value = 0;
+            return;
+        }
 
         distanceN = Vector3.Distance(muzzle.position, hitInfo2.point) / N;
         initialOffset += offsetSpeedChange * Time.deltaTime;
