@@ -11,7 +11,8 @@
                     "id": "1f0826da-30a9-4b06-a165-e66c153aeae0",
                     "expectedControlType": "Vector2",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Move",
@@ -19,7 +20,8 @@
                     "id": "7a55472e-62a1-40f8-9609-d9236a305176",
                     "expectedControlType": "Vector2",
                     "processors": "NormalizeVector2",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Sprint",
@@ -27,7 +29,8 @@
                     "id": "f91cdd86-07ce-4064-a67e-11142f545cb1",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Jump",
@@ -35,7 +38,8 @@
                     "id": "ebd29805-3600-4556-89e0-c8e4f8c34298",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Weapon Selection",
@@ -43,7 +47,8 @@
                     "id": "55420468-5249-4c2a-ab8c-e31eb5101fba",
                     "expectedControlType": "Axis",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Aim",
@@ -51,7 +56,8 @@
                     "id": "34f29cfe-97b1-4053-b6fa-530221c074f2",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Aim Switch",
@@ -59,7 +65,8 @@
                     "id": "37da266e-ba8a-438b-90c2-4537dc61555f",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Shoot",
@@ -67,7 +74,8 @@
                     "id": "35a6cff7-dd66-4f82-a83e-4e944d19a23a",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -208,7 +216,7 @@
                     "id": "b0bf0215-8bdc-40cb-b5cf-34682a2b1656",
                     "path": "<Mouse>/delta",
                     "interactions": "",
-                    "processors": "ScaleVector2(x=0.2,y=0.2)",
+                    "processors": "ScaleVector2(x=0.1,y=0.1)",
                     "groups": "",
                     "action": "Look",
                     "isComposite": false,

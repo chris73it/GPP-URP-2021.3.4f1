@@ -5,12 +5,12 @@ using UnityEngine.UI;
 public class AutoAiming : MonoBehaviour
 {
     [SerializeField] Transform muzzle;
+    [SerializeField] Image avatarCrosshairX;
+    [SerializeField] Image avatarCrosshairO;
     [SerializeField] Image crosshairIdle;
     [SerializeField] Image crosshairNoHit;
     [SerializeField] Image crosshairRedHit;
     [SerializeField] Image crosshairWhiteHit;
-    [SerializeField] Image avatarCrosshairX;
-    [SerializeField] Image avatarCrosshairO;
     [SerializeField] TrailRenderer bulletTracer;
     [SerializeField] FloatReference pistolCurrentEnergy = null;
     [SerializeField] FloatReference pistolEnergyConsumption = null;
